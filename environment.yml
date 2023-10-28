@@ -1,0 +1,32 @@
+name: confaide
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - nvidia::cudatoolkit=11.6
+  - pytorch::pytorch=2.0.1
+  - python=3.9.16
+  - pip=20.2.3
+  - pip:
+    - openai==0.27.6
+    - transformers==4.34.1
+    - tokenizers==0.14.1
+    - sentence-transformers==2.2.2
+    - git+https://github.com/google-research/bleurt.git
+    - bert-score==0.3.13
+    - datasets==2.9.0
+    - sentencepiece==0.1.97
+    - colorful==0.5.5
+    - better-exceptions==0.3.3
+    - protobuf==3.20.3
+    - jupyter
+    - ipython==7.20.0
+    - accelerate==0.20.3
+    - evaluate==0.4.0
+    - bitsandbytes==0.38.1
+    # For linting
+    - pylint
+    - pycodestyle
+    - mypy
+    - pudb
+    - jsonlines

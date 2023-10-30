@@ -1,6 +1,6 @@
-# 🤫 Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory
+# 🤫 ConfAIde
 ​
-This is the official repository for our paper: "Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory"<br>
+This is the official repository for our paper:<br>[Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory](https://arxiv.org/abs/2310.17884)<br>
 
 Our benchmark ConfAIde evaluates inference-time privacy implications of LLMs, in interactive settings. The benchmark has 4 tiers, and you can find the dataset/scenarios under the `./benchmark` directory.
 
@@ -11,6 +11,7 @@ Please cite our work if you found the resources in this repository useful:
 @article{confaide2023,
   author    = {Mireshghallah, Niloofar and Kim, Hyunwoo and Zhou, Xuhui  and Tsvetkov, Yulia and Sap, Maarten and Shokri, Reza and Choi, Yejin},
   title     = {Can LLMs Keep a Secret? Testing Privacy  Implications of Language Models via Contextual Integrity Theory},
+  journal   = {arXiv preprint arXiv:2310.17884},
   year      = {2023},
 }
 ```
